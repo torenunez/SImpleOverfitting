@@ -30,9 +30,10 @@ Do you see a trend?
 
 --- &twocol
 ## Let's just draw a straight line.
-*** =left
+*** =left 
 ![plot of chunk linear](assets/fig/linear-1.png)
 *** =right
+  
 
 This gives us an R^2 of 0.94.  
 That's pretty good...   
@@ -41,9 +42,11 @@ Do you think we could do any better?
 
 --- &twocol
 ## How about a second order polynomial?
-*** =left
+*** =left 
+  
 ![plot of chunk second](assets/fig/second-1.png)
-*** =right
+*** =right 
+  
 
 This gives us an R^2 of 0.964.  
 Is that better?  
@@ -51,9 +54,10 @@ Is that better?
 
 --- &twocol
 ## How about a third order polynomial?
-*** =left
+*** =left 
+  
 ![plot of chunk third](assets/fig/third-1.png)
-*** =right
+*** =right 
 
 This gives us an R^2 of 0.9642.  
  
